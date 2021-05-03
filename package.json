@@ -1,0 +1,16 @@
+{
+  "name": "poc-get-title-netflix",
+  "version": "1.0.0",
+  "main": "scraping.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "nightwatch": "^1.6.3"
+  },
+  "devDependencies": {
+    "chromedriver": "^90.0.0",
+    "geckodriver": "^1.22.3"
+  }
+}
