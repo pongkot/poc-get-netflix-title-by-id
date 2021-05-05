@@ -1,20 +1,16 @@
-const netflix = require('./functions/netflix')
+const netflix = require("./functions/netflix");
 
 const app = async () => {
-    const list = [
-        '80231373',
-        '70273614',
-        '70019004',
-    ]
+  const list = ["81056766"];
 
-    let result = []
+  let result = [];
 
-    for (const id of list) {
-        const doc = await netflix.getTitleById(id)
-        result.push(doc)
-    }
+  for (const id of list) {
+    const doc = await netflix.getTitleById(id);
+    result.push(doc);
+  }
 
-    console.log(result)
-}
+  console.log(result);
+};
 
-app()
+app();
